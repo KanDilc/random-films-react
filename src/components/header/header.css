@@ -1,0 +1,20 @@
+/* Header и все что относится к этому */
+.header>div {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 35px;
+  }
+  .logo {
+    text-align: left;
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+  }
+  .header__slogan {
+    margin-left: 70px;
+    text-align: right;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 35px;
+    margin-top: 15px;
+    font-size: 25px;
+  }

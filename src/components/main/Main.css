@@ -1,0 +1,64 @@
+/* choise(выборка фильтра) */
+.quantity__films__input {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  .quantity__films__input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #4d90fe;
+  }
+  .quantity__films__input::-webkit-inner-spin-button,
+  .quantity__films__input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .choise__quantity,.choise__genre,.choise__decade,.choise__country {
+      margin-top: 15px;
+  }
+  .choise__country {
+      margin-bottom: 15px;
+  }
+  select {
+    width: 350px;
+    color: black;
+    height: 35px;
+    padding: 5px 35px 5px 5px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #eee;
+    margin-top: 10px;
+  }
+  
+  label > input {
+    width: 300px;
+  }
+  input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 5px;
+    background-image: linear-gradient(#35395f, #2c2a49);
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    background: #ecf0f1;
+    width:18px;
+    border-radius: 25px;
+    height: 17px;
+    -webkit-appearance: none;
+  
+  }
+  label > output {
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  select > option {
+    color: black;
+  }
